@@ -12,7 +12,7 @@ class Poptop < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/bakks/poptop/releases/download/v0.1.2/poptop_0.1.2_darwin_arm64.tar.gz"
-      sha256 "8d039c2d5dd260937123bfe62e18139e7bb7a441dd21d59b93fe6f8fa18e3a96"
+      sha256 "3cc964ac5a18db41f61efaab3d105bc4a19b3c74bfe327c716f83b09ffeb99a1"
 
       def install
         bin.install "poptop"
@@ -20,7 +20,7 @@ class Poptop < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/bakks/poptop/releases/download/v0.1.2/poptop_0.1.2_darwin_amd64.tar.gz"
-      sha256 "953d8ea8e7cae72a87d266bb13d2e83dbad95021e573f012ee96b4e698b378a7"
+      sha256 "7a33a32393f28545806f66e4b292f69e2041ab9ba5de99c8fdbf0e89ef035496"
 
       def install
         bin.install "poptop"
