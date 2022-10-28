@@ -5,22 +5,22 @@
 class Poptop < Formula
   desc "A modern Top command that dynamically charts system metrics in the terminal."
   homepage "https://github.com/bakks/poptop"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bakks/poptop/releases/download/v0.1.4/poptop_0.1.4_darwin_arm64.tar.gz"
-      sha256 "9fb5ceb64fa18cef5e804985a959f1cc5e6486be6b012aa24a3de0df8d9ce183"
+      url "https://github.com/bakks/poptop/releases/download/v0.1.5/poptop_0.1.5_darwin_arm64.tar.gz"
+      sha256 "a20d6be0e3acabb95fd1868be8eeadfca1fc54fbccecf1c1395e31d4975a8712"
 
       def install
         bin.install "poptop"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bakks/poptop/releases/download/v0.1.4/poptop_0.1.4_darwin_amd64.tar.gz"
-      sha256 "5c9c6136f5e042fcf927442ff1b23ce6d759b6a4e38d072fd3b610e1e8b0ae2a"
+      url "https://github.com/bakks/poptop/releases/download/v0.1.5/poptop_0.1.5_darwin_amd64.tar.gz"
+      sha256 "3db8232c45caa992af0898316dd2cfbeceadeddcbf2980b8bb0c502c790b57a0"
 
       def install
         bin.install "poptop"
