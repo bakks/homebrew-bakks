@@ -5,13 +5,13 @@
 class Butterfish < Formula
   desc "A tool for using LLMs on the command line"
   homepage "https://github.com/bakks/butterfish"
-  version "0.1.1"
+  version "0.1.3"
   license "MIT"
   depends_on :macos
 
   on_macos do
-    url "https://github.com/bakks/butterfish/releases/download/v0.1.1/butterfish_0.1.1_darwin_all.tar.gz"
-    sha256 "9ead793d0383e5411e5f08de0f88625ce88b2c1aaec9e6d219521d3867f7603e"
+    url "https://github.com/bakks/butterfish/releases/download/v0.1.3/butterfish_0.1.3_darwin_all.tar.gz"
+    sha256 "109c6940fd09cd951a41911501b9289e9a3fd9a09a994cb328b9ddb6cbdb3304"
 
     def install
       bin.install "butterfish"
